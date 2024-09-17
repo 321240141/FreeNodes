@@ -1,4 +1,4 @@
-2024-09-17 08:27:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-09-17 14:18:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,185 +13,166 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-09-17 08:27:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-09-17 14:18:42 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-09-17 08:27:31 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-09-17 14:18:42 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-09-17 08:27:31 [scrapy.core.engine] INFO: Spider opened
-2024-09-17 08:27:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-09-17 08:27:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-09-17 08:27:31 [simple] INFO: freenode start
-2024-09-17 08:27:31 [simple] INFO: ndnode start
-2024-09-17 08:27:31 [simple] INFO: nodev2ray start
-2024-09-17 08:27:31 [simple] INFO: nodefree start
-2024-09-17 08:27:31 [simple] INFO: v2rayshare start
-2024-09-17 08:27:31 [simple] INFO: wenode start
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-17-free-v2ray.htm on 2024-09-17
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-16-free-ssr-node.htm on 2024-09-16
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-15-free-node-subscribe-links.htm on 2024-09-15
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-14-free-clash-subscribe.htm on 2024-09-14
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-13-free-subscribe-node.htm on 2024-09-13
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-12-clash-v2ray-ss-ssr.htm on 2024-09-12
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-11-free-subscribe-node.htm on 2024-09-11
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-10-v2ray-node.htm on 2024-09-10
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-9-v2ray-node.htm on 2024-09-09
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-8-free-v2ray-subscribe.htm on 2024-09-08
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-7-free-high-speed-nodes.htm on 2024-09-07
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-6-free-clash.htm on 2024-09-06
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-5-free-ssr-node.htm on 2024-09-05
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-4-free-ssr-node.htm on 2024-09-04
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-3-node-share.htm on 2024-09-03
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-2-free-ssr-subscribe.htm on 2024-09-02
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-9-1-free-clash-subscribe.htm on 2024-09-01
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-8-31-clash-v2ray-ss-ssr.htm on 2024-08-31
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-8-30-free-v2ray-subscribe.htm on 2024-08-30
-2024-09-17 08:27:31 [simple] INFO: nodev2ray found /free-node/2024-8-29-free-ssr-subscribe.htm on 2024-08-29
-2024-09-17 08:27:31 [simple] INFO: nodev2ray is up to date, exiting
-2024-09-17 08:27:31 [simple] INFO: nodev2ray is up to date, exiting
-2024-09-17 08:27:31 [simple] INFO: nodev2ray is up to date, exiting
-2024-09-17 08:27:31 [simple] INFO: freenode found /post/20240917/ on 2024-09-17
-2024-09-17 08:27:31 [simple] INFO: freenode found /post/20240916/ on 2024-09-16
-2024-09-17 08:27:31 [simple] INFO: freenode found /post/20240915/ on 2024-09-15
-2024-09-17 08:27:31 [simple] INFO: freenode found /post/20240914/ on 2024-09-14
-2024-09-17 08:27:31 [simple] INFO: freenode found /post/20240913/ on 2024-09-13
-2024-09-17 08:27:31 [simple] INFO: freenode is up to date, exiting
-2024-09-17 08:27:31 [simple] INFO: freenode is up to date, exiting
-2024-09-17 08:27:31 [simple] INFO: freenode is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2076.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2077.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2078.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2079.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2080.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2081.html on 2024-09-12
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2082.html on 2024-09-11
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2083.html on 2024-09-10
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2084.html on 2024-09-09
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.cc/a/2085.html on 2024-09-08
-2024-09-17 08:27:32 [simple] INFO: wenode needs update, accessing https://wenode.cc/a/2076.html
-2024-09-17 08:27:32 [simple] INFO: wenode is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: wenode is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2024/09/20240917.txt
-2024-09-17 08:27:32 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2024/09/20240917.yaml
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0917.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0916.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0915.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0914.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0913.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0912.html on 2024-09-12
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0911.html on 2024-09-11
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0910.html on 2024-09-10
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0909.html on 2024-09-09
-2024-09-17 08:27:32 [simple] INFO: ndnode found /2024/0908.html on 2024-09-08
-2024-09-17 08:27:32 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0917.html
-2024-09-17 08:27:32 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0916.html
-2024-09-17 08:27:32 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0915.html
-2024-09-17 08:27:32 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240915-v2ray.txt , skipping
-2024-09-17 08:27:32 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240915-clash.yaml , skipping
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2429.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2429.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2430.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2430.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2431.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2431.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2432.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2432.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2433.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2433.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2434.html on 2024-09-12
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2434.html on 2024-09-12
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2435.html on 2024-09-11
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2435.html on 2024-09-11
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2436.html on 2024-09-10
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2436.html on 2024-09-10
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2437.html on 2024-09-09
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2437.html on 2024-09-09
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2438.html on 2024-09-08
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.org/p/2438.html on 2024-09-08
-2024-09-17 08:27:32 [simple] INFO: nodefree needs update, accessing https://nodefree.org/p/2429.html
-2024-09-17 08:27:32 [simple] INFO: nodefree needs update, accessing https://nodefree.org/p/2429.html
-2024-09-17 08:27:32 [simple] INFO: nodefree is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3765.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3766.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3767.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3768.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3769.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3770.html on 2024-09-12
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3771.html on 2024-09-11
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3772.html on 2024-09-10
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3773.html on 2024-09-09
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3774.html on 2024-09-08
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3765.html on 2024-09-17
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3766.html on 2024-09-16
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3767.html on 2024-09-15
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3768.html on 2024-09-14
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3769.html on 2024-09-13
-2024-09-17 08:27:32 [simple] INFO: v2rayshare needs update, accessing https://v2rayshare.com/p/3765.html
-2024-09-17 08:27:32 [simple] INFO: v2rayshare is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: v2rayshare is up to date, exiting
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2024/09/20240917.txt
-2024-09-17 08:27:32 [simple] INFO: nodefree found https://nodefree.githubrowcontent.com/2024/09/20240917.yaml
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2024/09/20240917.txt
-2024-09-17 08:27:32 [simple] INFO: v2rayshare found https://v2rayshare.githubrowcontent.com/2024/09/20240917.yaml
-2024-09-17 08:27:33 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240917-v2ray.txt , skipping
-2024-09-17 08:27:33 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240917-clash.yaml , skipping
-2024-09-17 08:27:33 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240916-v2ray.txt , skipping
-2024-09-17 08:27:33 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240916-clash.yaml , skipping
-2024-09-17 08:27:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://v2rayshare.githubrowcontent.com/2024/09/20240917.yaml>: HTTP status code is not handled or not allowed
-2024-09-17 08:27:33 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://nodefree.githubrowcontent.com/2024/09/20240917.yaml>: HTTP status code is not handled or not allowed
-2024-09-17 08:27:33 [simple] INFO: Pipeline processing nodefree.txt
-2024-09-17 08:27:33 [simple] INFO: Pipeline processed nodefree.txt
-2024-09-17 08:27:33 [simple] INFO: Pipeline processing v2rayshare.txt
-2024-09-17 08:27:33 [simple] INFO: Pipeline processed v2rayshare.txt
-2024-09-17 08:28:03 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://wenode.githubrowcontent.com/2024/09/20240917.yaml>: HTTP status code is not handled or not allowed
-2024-09-17 08:28:03 [simple] INFO: Pipeline processing wenode.txt
-2024-09-17 08:28:03 [simple] INFO: Pipeline processed wenode.txt
-2024-09-17 08:28:03 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-09-17 08:28:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 9939,
- 'downloader/request_count': 29,
- 'downloader/request_method_count/GET': 29,
- 'downloader/response_bytes': 112512,
- 'downloader/response_count': 29,
- 'downloader/response_status_count/200': 20,
+2024-09-17 14:18:42 [scrapy.core.engine] INFO: Spider opened
+2024-09-17 14:18:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-17 14:18:42 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-17 14:18:42 [simple] INFO: freenode start
+2024-09-17 14:18:42 [simple] INFO: ndnode start
+2024-09-17 14:18:42 [simple] INFO: nodev2ray start
+2024-09-17 14:18:42 [simple] INFO: nodefree start
+2024-09-17 14:18:42 [simple] INFO: v2rayshare start
+2024-09-17 14:18:42 [simple] INFO: wenode start
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2076.html on 2024-09-17
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2077.html on 2024-09-16
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2078.html on 2024-09-15
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2079.html on 2024-09-14
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2080.html on 2024-09-13
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2081.html on 2024-09-12
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2082.html on 2024-09-11
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2083.html on 2024-09-10
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2084.html on 2024-09-09
+2024-09-17 14:18:42 [simple] INFO: wenode found https://wenode.cc/a/2085.html on 2024-09-08
+2024-09-17 14:18:42 [simple] INFO: wenode is up to date, exiting
+2024-09-17 14:18:42 [simple] INFO: wenode is up to date, exiting
+2024-09-17 14:18:42 [simple] INFO: wenode is up to date, exiting
+2024-09-17 14:18:42 [simple] INFO: freenode found /post/20240917/ on 2024-09-17
+2024-09-17 14:18:42 [simple] INFO: freenode found /post/20240916/ on 2024-09-16
+2024-09-17 14:18:42 [simple] INFO: freenode found /post/20240915/ on 2024-09-15
+2024-09-17 14:18:42 [simple] INFO: freenode found /post/20240914/ on 2024-09-14
+2024-09-17 14:18:42 [simple] INFO: freenode found /post/20240913/ on 2024-09-13
+2024-09-17 14:18:42 [simple] INFO: freenode is up to date, exiting
+2024-09-17 14:18:42 [simple] INFO: freenode is up to date, exiting
+2024-09-17 14:18:42 [simple] INFO: freenode is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-17-free-v2ray.htm on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-16-free-ssr-node.htm on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-15-free-node-subscribe-links.htm on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-14-free-clash-subscribe.htm on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-13-free-subscribe-node.htm on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-12-clash-v2ray-ss-ssr.htm on 2024-09-12
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-11-free-subscribe-node.htm on 2024-09-11
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-10-v2ray-node.htm on 2024-09-10
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-9-v2ray-node.htm on 2024-09-09
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-8-free-v2ray-subscribe.htm on 2024-09-08
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-7-free-high-speed-nodes.htm on 2024-09-07
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-6-free-clash.htm on 2024-09-06
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-5-free-ssr-node.htm on 2024-09-05
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-4-free-ssr-node.htm on 2024-09-04
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-3-node-share.htm on 2024-09-03
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-2-free-ssr-subscribe.htm on 2024-09-02
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-9-1-free-clash-subscribe.htm on 2024-09-01
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-8-31-clash-v2ray-ss-ssr.htm on 2024-08-31
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-8-30-free-v2ray-subscribe.htm on 2024-08-30
+2024-09-17 14:18:43 [simple] INFO: nodev2ray found /free-node/2024-8-29-free-ssr-subscribe.htm on 2024-08-29
+2024-09-17 14:18:43 [simple] INFO: nodev2ray is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodev2ray is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodev2ray is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3765.html on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3766.html on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3767.html on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3768.html on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3769.html on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3770.html on 2024-09-12
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3771.html on 2024-09-11
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3772.html on 2024-09-10
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3773.html on 2024-09-09
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3774.html on 2024-09-08
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3765.html on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3766.html on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3767.html on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3768.html on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3769.html on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: v2rayshare is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: v2rayshare is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: v2rayshare is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2429.html on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2429.html on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2430.html on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2430.html on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2431.html on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2431.html on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2432.html on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2432.html on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2433.html on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2433.html on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2434.html on 2024-09-12
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2434.html on 2024-09-12
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2435.html on 2024-09-11
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2435.html on 2024-09-11
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2436.html on 2024-09-10
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2436.html on 2024-09-10
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2437.html on 2024-09-09
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2437.html on 2024-09-09
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2438.html on 2024-09-08
+2024-09-17 14:18:43 [simple] INFO: nodefree found https://nodefree.org/p/2438.html on 2024-09-08
+2024-09-17 14:18:43 [simple] INFO: nodefree is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodefree is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: nodefree is up to date, exiting
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0917.html on 2024-09-17
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0916.html on 2024-09-16
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0915.html on 2024-09-15
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0914.html on 2024-09-14
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0913.html on 2024-09-13
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0912.html on 2024-09-12
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0911.html on 2024-09-11
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0910.html on 2024-09-10
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0909.html on 2024-09-09
+2024-09-17 14:18:43 [simple] INFO: ndnode found /2024/0908.html on 2024-09-08
+2024-09-17 14:18:43 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0917.html
+2024-09-17 14:18:43 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0916.html
+2024-09-17 14:18:43 [simple] INFO: ndnode needs update, accessing https://www.naidounode.com/2024/0915.html
+2024-09-17 14:18:43 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240915-v2ray.txt , skipping
+2024-09-17 14:18:43 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240915-clash.yaml , skipping
+2024-09-17 14:18:44 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240917-v2ray.txt , skipping
+2024-09-17 14:18:44 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240917-clash.yaml , skipping
+2024-09-17 14:18:44 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240916-v2ray.txt , skipping
+2024-09-17 14:18:44 [simple] WARNING: ndnode could not parse https://www.naidounode.com/node/20240916-clash.yaml , skipping
+2024-09-17 14:18:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-09-17 14:18:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5748,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 65291,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 14,
  'downloader/response_status_count/301': 2,
- 'downloader/response_status_count/404': 7,
- 'dupefilter/filtered': 1,
- 'elapsed_time_seconds': 31.650884,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.867959,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 9, 17, 8, 28, 3, 149585, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 460556,
- 'httpcompression/response_count': 24,
- 'httperror/response_ignored_count': 3,
- 'httperror/response_ignored_status_count/404': 3,
- 'item_scraped_count': 3,
- 'log_count/INFO': 129,
+ 'finish_time': datetime.datetime(2024, 9, 17, 14, 18, 44, 208831, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 284426,
+ 'httpcompression/response_count': 12,
+ 'log_count/INFO': 114,
  'log_count/WARNING': 6,
- 'memusage/max': 425742336,
- 'memusage/startup': 425742336,
- 'request_depth_max': 2,
- 'response_received_count': 27,
- 'robotstxt/request_count': 9,
- 'robotstxt/response_count': 9,
+ 'memusage/max': 425504768,
+ 'memusage/startup': 425504768,
+ 'request_depth_max': 1,
+ 'response_received_count': 15,
+ 'robotstxt/request_count': 6,
+ 'robotstxt/response_count': 6,
  'robotstxt/response_status_count/200': 5,
- 'robotstxt/response_status_count/404': 4,
- 'scheduler/dequeued': 18,
- 'scheduler/dequeued/memory': 18,
- 'scheduler/enqueued': 18,
- 'scheduler/enqueued/memory': 18,
- 'start_time': datetime.datetime(2024, 9, 17, 8, 27, 31, 498701, tzinfo=datetime.timezone.utc)}
-2024-09-17 08:28:03 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-09-17 08:28:06 [scrapy.addons] INFO: Enabled addons:
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2024, 9, 17, 14, 18, 42, 340872, tzinfo=datetime.timezone.utc)}
+2024-09-17 14:18:44 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-09-17 14:19:02 [scrapy.addons] INFO: Enabled addons:
 []
-2024-09-17 08:28:06 [scrapy.extensions.telnet] INFO: Telnet Password: f635d23525272463
-2024-09-17 08:28:06 [scrapy.middleware] INFO: Enabled extensions:
+2024-09-17 14:19:02 [scrapy.extensions.telnet] INFO: Telnet Password: 8b0ba798c8d63f5c
+2024-09-17 14:19:02 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-09-17 08:28:06 [scrapy.crawler] INFO: Overridden settings:
+2024-09-17 14:19:02 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -201,7 +182,7 @@
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-09-17 08:28:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-09-17 14:19:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -216,56 +197,38 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-09-17 08:28:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-09-17 14:19:02 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-09-17 08:28:06 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-09-17 14:19:02 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-09-17 08:28:06 [scrapy.core.engine] INFO: Spider opened
-2024-09-17 08:28:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-09-17 08:28:06 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-09-17 08:28:06 [decrypt] INFO: yudou66 start
-2024-09-17 08:28:06 [decrypt] INFO: blues start
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html on 2024-09-17
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html on 2024-09-16
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html on 2024-09-15
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249144kchatgpt4k8kclashv2ray.html on 2024-09-14
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249134kchatgpt4k8kclashv2ray.html on 2024-09-13
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249124kchatgpt4k8kclashv2ray.html on 2024-09-12
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249114kchatgpt4k8kclashv2ray.html on 2024-09-11
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249104kchatgpt4k8kclashv2ray.html on 2024-09-10
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/2024994kchatgpt4k8kclashv2ray.html on 2024-09-09
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/2024984kchatgpt4k8kclashv2ray.html on 2024-09-08
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249114kchatgpt4k8kclashv2ray.html on 2024-09-11
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html on 2024-09-16
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249144kchatgpt4k8kclashv2ray.html on 2024-09-14
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249124kchatgpt4k8kclashv2ray.html on 2024-09-12
-2024-09-17 08:28:06 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html on 2024-09-15
-2024-09-17 08:28:06 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html
-2024-09-17 08:28:06 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html
-2024-09-17 08:28:06 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html on 2024-09-17
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html on 2024-09-16
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240915223-1080p4k-v2rayclash-vpn.html on 2024-09-15
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240914241-1080p4k-v2rayclash-vpn.html on 2024-09-14
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240912235-1080p4k-v2rayclash-vpn.html on 2024-09-12
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240911229-1080p4k-v2rayclash-vpn.html on 2024-09-11
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240910209-1080p4k-v2rayclash-vpn.html on 2024-09-10
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240909187-1080p4k-v2rayclash-vpn.html on 2024-09-09
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240908222-1080p4k-v2rayclash-vpn.html on 2024-09-08
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240907193-1080p4k-v2rayclash-vpn.html on 2024-09-07
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240905207-1080p4k-v2rayclash-vpn.html on 2024-07-10
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html on 2024-09-17
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240914241-1080p4k-v2rayclash-vpn.html on 2024-09-14
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html
-2024-09-17 08:28:07 [decrypt] INFO: yudou66 is up to date, exiting
-2024-09-17 08:28:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html> (referer: https://www.yudou66.com)
+2024-09-17 14:19:02 [scrapy.core.engine] INFO: Spider opened
+2024-09-17 14:19:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-17 14:19:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 start
+2024-09-17 14:19:02 [decrypt] INFO: blues start
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html on 2024-09-17
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html on 2024-09-16
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240915223-1080p4k-v2rayclash-vpn.html on 2024-09-15
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240914241-1080p4k-v2rayclash-vpn.html on 2024-09-14
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240912235-1080p4k-v2rayclash-vpn.html on 2024-09-12
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240911229-1080p4k-v2rayclash-vpn.html on 2024-09-11
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240910209-1080p4k-v2rayclash-vpn.html on 2024-09-10
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240909187-1080p4k-v2rayclash-vpn.html on 2024-09-09
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240908222-1080p4k-v2rayclash-vpn.html on 2024-09-08
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240907193-1080p4k-v2rayclash-vpn.html on 2024-09-07
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240905207-1080p4k-v2rayclash-vpn.html on 2024-07-10
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html on 2024-09-17
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240913202-1080p4k-v2rayclash-vpn.html on 2024-02-10
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/09/20240914241-1080p4k-v2rayclash-vpn.html on 2024-09-14
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 needs update, accessing https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html
+2024-09-17 14:19:02 [decrypt] INFO: yudou66 is up to date, exiting
+2024-09-17 14:19:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html> (referer: https://www.yudou66.com)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
     yield next(it)
@@ -315,7 +278,25 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 421, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-09-17 08:28:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/)
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html on 2024-09-17
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html on 2024-09-16
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html on 2024-09-15
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249144kchatgpt4k8kclashv2ray.html on 2024-09-14
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249134kchatgpt4k8kclashv2ray.html on 2024-09-13
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249124kchatgpt4k8kclashv2ray.html on 2024-09-12
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249114kchatgpt4k8kclashv2ray.html on 2024-09-11
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249104kchatgpt4k8kclashv2ray.html on 2024-09-10
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/2024994kchatgpt4k8kclashv2ray.html on 2024-09-09
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/2024984kchatgpt4k8kclashv2ray.html on 2024-09-08
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249114kchatgpt4k8kclashv2ray.html on 2024-09-11
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html on 2024-09-16
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html on 2024-09-17
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249144kchatgpt4k8kclashv2ray.html on 2024-09-14
+2024-09-17 14:19:03 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/09/20249124kchatgpt4k8kclashv2ray.html on 2024-09-12
+2024-09-17 14:19:03 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html
+2024-09-17 14:19:03 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html
+2024-09-17 14:19:03 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html
+2024-09-17 14:19:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou66.com/2024/09/20240917231-1080p4k-v2rayclash-vpn.html?m=1> (referer: https://www.yudou66.com)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
     yield next(it)
@@ -365,7 +346,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 421, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-09-17 08:28:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.yudou66.com/2024/09/20240916224-1080p4k-v2rayclash-vpn.html?m=1> (referer: https://www.yudou66.com)
+2024-09-17 14:19:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249184kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
     yield next(it)
@@ -415,7 +396,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 421, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-09-17 08:28:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/)
+2024-09-17 14:19:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249164kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
     yield next(it)
@@ -465,7 +446,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 421, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-09-17 08:28:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-09-17 14:19:03 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/09/20249154kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 279, in iter_errback
     yield next(it)
@@ -515,24 +496,24 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.9/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 421, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-09-17 08:28:09 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-09-17 08:28:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4239,
+2024-09-17 14:19:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-09-17 14:19:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4355,
  'downloader/request_count': 12,
  'downloader/request_method_count/GET': 12,
- 'downloader/response_bytes': 288638,
+ 'downloader/response_bytes': 288745,
  'downloader/response_count': 12,
  'downloader/response_status_count/200': 9,
  'downloader/response_status_count/302': 3,
- 'elapsed_time_seconds': 3.089763,
+ 'elapsed_time_seconds': 1.480859,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 9, 17, 8, 28, 9, 499272, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 9, 17, 14, 19, 3, 933292, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 1513744,
  'httpcompression/response_count': 9,
  'log_count/ERROR': 5,
  'log_count/INFO': 49,
- 'memusage/max': 423817216,
- 'memusage/startup': 423817216,
+ 'memusage/max': 425893888,
+ 'memusage/startup': 425893888,
  'request_depth_max': 1,
  'response_received_count': 9,
  'robotstxt/request_count': 2,
@@ -543,5 +524,5 @@ EOFError: EOF when reading a line
  'scheduler/enqueued': 9,
  'scheduler/enqueued/memory': 9,
  'spider_exceptions/EOFError': 5,
- 'start_time': datetime.datetime(2024, 9, 17, 8, 28, 6, 409509, tzinfo=datetime.timezone.utc)}
-2024-09-17 08:28:09 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2024, 9, 17, 14, 19, 2, 452433, tzinfo=datetime.timezone.utc)}
+2024-09-17 14:19:03 [scrapy.core.engine] INFO: Spider closed (finished)
