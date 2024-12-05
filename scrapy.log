@@ -1,4 +1,4 @@
-2024-12-05 08:30:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-05 14:21:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,24 +13,24 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-05 08:30:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-05 14:21:34 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-05 08:30:16 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-05 14:21:34 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-05 08:30:16 [scrapy.core.engine] INFO: Spider opened
-2024-12-05 08:30:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-05 08:30:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-05 08:30:16 [simple] INFO: freenode start
-2024-12-05 08:30:16 [simple] INFO: ndnode start
-2024-12-05 08:30:16 [simple] INFO: nodev2ray start
-2024-12-05 08:30:16 [simple] INFO: nodefree start
-2024-12-05 08:30:16 [simple] INFO: v2rayshare start
-2024-12-05 08:30:16 [simple] INFO: wenode start
-2024-12-05 08:30:17 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-05 08:30:17 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-05 14:21:34 [scrapy.core.engine] INFO: Spider opened
+2024-12-05 14:21:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-05 14:21:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-05 14:21:34 [simple] INFO: freenode start
+2024-12-05 14:21:34 [simple] INFO: ndnode start
+2024-12-05 14:21:34 [simple] INFO: nodev2ray start
+2024-12-05 14:21:34 [simple] INFO: nodefree start
+2024-12-05 14:21:34 [simple] INFO: v2rayshare start
+2024-12-05 14:21:34 [simple] INFO: wenode start
+2024-12-05 14:21:34 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-05 14:21:34 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -47,26 +47,26 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-25-node-share.htm on 2024-11-25
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-24-shadowrocket-node.htm on 2024-11-24
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-23-free-ssr-subscribe.htm on 2024-11-23
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-22-node-share-links.htm on 2024-11-22
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-21-free-ssr-subscribe.htm on 2024-11-21
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-20-free-v2ray-subscribe.htm on 2024-11-20
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-19-clash-v2ray-ss-ssr.htm on 2024-11-19
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-18-v2ray-node-daily-updates.htm on 2024-11-18
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-17-free-subscribe-node.htm on 2024-11-17
-2024-12-05 08:30:17 [simple] INFO: nodev2ray found /free-node/2024-11-16-v2ray-node.htm on 2024-11-16
-2024-12-05 08:30:17 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-05 08:30:17 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-05 08:30:17 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-25-node-share.htm on 2024-11-25
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-24-shadowrocket-node.htm on 2024-11-24
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-23-free-ssr-subscribe.htm on 2024-11-23
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-22-node-share-links.htm on 2024-11-22
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-21-free-ssr-subscribe.htm on 2024-11-21
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-20-free-v2ray-subscribe.htm on 2024-11-20
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-19-clash-v2ray-ss-ssr.htm on 2024-11-19
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-18-v2ray-node-daily-updates.htm on 2024-11-18
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-17-free-subscribe-node.htm on 2024-11-17
+2024-12-05 14:21:34 [simple] INFO: nodev2ray found /free-node/2024-11-16-v2ray-node.htm on 2024-11-16
+2024-12-05 14:21:34 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-05 14:21:34 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-05 14:21:34 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-05 14:21:35 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-05 14:21:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -83,57 +83,57 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-05 08:30:17 [simple] INFO: wenode found https://wenode.cc/a/2187.html on 2024-11-30
-2024-12-05 08:30:17 [simple] INFO: wenode found https://wenode.cc/a/2188.html on 2024-11-29
-2024-12-05 08:30:17 [simple] INFO: wenode found https://wenode.cc/a/2189.html on 2024-11-28
-2024-12-05 08:30:17 [simple] INFO: wenode found https://wenode.cc/a/2190.html on 2024-11-27
-2024-12-05 08:30:17 [simple] INFO: wenode found https://wenode.cc/a/2191.html on 2024-11-26
-2024-12-05 08:30:17 [simple] INFO: wenode is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: wenode is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: wenode is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3876.html on 2024-11-30
-2024-12-05 08:30:17 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3877.html on 2024-11-29
-2024-12-05 08:30:17 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3878.html on 2024-11-28
-2024-12-05 08:30:17 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3879.html on 2024-11-27
-2024-12-05 08:30:17 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3880.html on 2024-11-26
-2024-12-05 08:30:17 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2539.html on 2024-11-30
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2539.html on 2024-11-30
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2540.html on 2024-11-29
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2540.html on 2024-11-29
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2541.html on 2024-11-28
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2541.html on 2024-11-28
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2542.html on 2024-11-27
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2542.html on 2024-11-27
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2543.html on 2024-11-26
-2024-12-05 08:30:17 [simple] INFO: nodefree found https://nodefree.org/p/2543.html on 2024-11-26
-2024-12-05 08:30:17 [simple] INFO: nodefree is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: nodefree is up to date, exiting
-2024-12-05 08:30:17 [simple] INFO: nodefree is up to date, exiting
-2024-12-05 08:30:18 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-05 08:30:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2024-12-05 14:21:35 [simple] INFO: wenode found https://wenode.cc/a/2187.html on 2024-11-30
+2024-12-05 14:21:35 [simple] INFO: wenode found https://wenode.cc/a/2188.html on 2024-11-29
+2024-12-05 14:21:35 [simple] INFO: wenode found https://wenode.cc/a/2189.html on 2024-11-28
+2024-12-05 14:21:35 [simple] INFO: wenode found https://wenode.cc/a/2190.html on 2024-11-27
+2024-12-05 14:21:35 [simple] INFO: wenode found https://wenode.cc/a/2191.html on 2024-11-26
+2024-12-05 14:21:35 [simple] INFO: wenode is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: wenode is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: wenode is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3876.html on 2024-11-30
+2024-12-05 14:21:35 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3877.html on 2024-11-29
+2024-12-05 14:21:35 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3878.html on 2024-11-28
+2024-12-05 14:21:35 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3879.html on 2024-11-27
+2024-12-05 14:21:35 [simple] INFO: v2rayshare found https://v2rayshare.com/p/3880.html on 2024-11-26
+2024-12-05 14:21:35 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2539.html on 2024-11-30
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2539.html on 2024-11-30
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2540.html on 2024-11-29
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2540.html on 2024-11-29
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2541.html on 2024-11-28
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2541.html on 2024-11-28
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2542.html on 2024-11-27
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2542.html on 2024-11-27
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2543.html on 2024-11-26
+2024-12-05 14:21:35 [simple] INFO: nodefree found https://nodefree.org/p/2543.html on 2024-11-26
+2024-12-05 14:21:35 [simple] INFO: nodefree is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: nodefree is up to date, exiting
+2024-12-05 14:21:35 [simple] INFO: nodefree is up to date, exiting
+2024-12-05 14:21:35 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-05 14:21:35 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 6,
  'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
- 'downloader/request_bytes': 5723,
+ 'downloader/request_bytes': 5763,
  'downloader/request_count': 18,
  'downloader/request_method_count/GET': 18,
- 'downloader/response_bytes': 49067,
+ 'downloader/response_bytes': 49074,
  'downloader/response_count': 12,
  'downloader/response_status_count/200': 9,
  'downloader/response_status_count/301': 2,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 1.766957,
+ 'elapsed_time_seconds': 1.564714,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 5, 8, 30, 18, 391053, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 238874,
+ 'finish_time': datetime.datetime(2024, 12, 5, 14, 21, 35, 806771, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 238876,
  'httpcompression/response_count': 8,
  'items_per_minute': None,
  'log_count/ERROR': 4,
  'log_count/INFO': 63,
- 'memusage/max': 484065280,
- 'memusage/startup': 484065280,
+ 'memusage/max': 481845248,
+ 'memusage/startup': 481845248,
  'response_received_count': 10,
  'responses_per_minute': None,
  'retry/count': 4,
@@ -148,17 +148,17 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scheduler/dequeued/memory': 8,
  'scheduler/enqueued': 8,
  'scheduler/enqueued/memory': 8,
- 'start_time': datetime.datetime(2024, 12, 5, 8, 30, 16, 624096, tzinfo=datetime.timezone.utc)}
-2024-12-05 08:30:18 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-12-05 08:30:22 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2024, 12, 5, 14, 21, 34, 242057, tzinfo=datetime.timezone.utc)}
+2024-12-05 14:21:35 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-12-05 14:21:40 [scrapy.addons] INFO: Enabled addons:
 []
-2024-12-05 08:30:22 [scrapy.extensions.telnet] INFO: Telnet Password: affdefcf4332a19e
-2024-12-05 08:30:22 [scrapy.middleware] INFO: Enabled extensions:
+2024-12-05 14:21:40 [scrapy.extensions.telnet] INFO: Telnet Password: 819e886880ace508
+2024-12-05 14:21:40 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-12-05 08:30:22 [scrapy.crawler] INFO: Overridden settings:
+2024-12-05 14:21:40 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -168,7 +168,7 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-12-05 08:30:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-05 14:21:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -183,29 +183,39 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-05 08:30:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-05 14:21:40 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-05 08:30:22 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-05 14:21:40 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-05 08:30:22 [scrapy.core.engine] INFO: Spider opened
-2024-12-05 08:30:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-05 08:30:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-05 08:30:22 [decrypt] INFO: yudou66 start
-2024-12-05 08:30:22 [decrypt] INFO: blues start
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411304kchatgpt4k8kclashv2ray.html on 2024-11-30
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411294kchatgpt4k8kclashv2ray.html on 2024-11-29
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411274kchatgpt4k8kclashv2ray_27.html on 2024-11-28
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411274kchatgpt4k8kclashv2ray.html on 2024-11-27
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411264kchatgpt4k8kclashv2ray.html on 2024-11-26
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411294kchatgpt4k8kclashv2ray.html on 2024-11-29
-2024-12-05 08:30:22 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411304kchatgpt4k8kclashv2ray.html on 2024-11-30
-2024-12-05 08:30:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241254kchatgpt4k8kclashv2ray.html
-2024-12-05 08:30:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241244kchatgpt4k8kclashv2ray.html
-2024-12-05 08:30:22 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241234kchatgpt4k8kclashv2ray.html
-2024-12-05 08:30:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241254kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-05 14:21:40 [scrapy.core.engine] INFO: Spider opened
+2024-12-05 14:21:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-05 14:21:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 start
+2024-12-05 14:21:40 [decrypt] INFO: blues start
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411304kchatgpt4k8kclashv2ray.html on 2024-11-30
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411294kchatgpt4k8kclashv2ray.html on 2024-11-29
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411274kchatgpt4k8kclashv2ray_27.html on 2024-11-28
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411274kchatgpt4k8kclashv2ray.html on 2024-11-27
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411264kchatgpt4k8kclashv2ray.html on 2024-11-26
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411294kchatgpt4k8kclashv2ray.html on 2024-11-29
+2024-12-05 14:21:40 [decrypt] INFO: blues found https://blues2022.blogspot.com/2024/11/202411304kchatgpt4k8kclashv2ray.html on 2024-11-30
+2024-12-05 14:21:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241254kchatgpt4k8kclashv2ray.html
+2024-12-05 14:21:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241244kchatgpt4k8kclashv2ray.html
+2024-12-05 14:21:40 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/20241234kchatgpt4k8kclashv2ray.html
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411302071080p4kv2rayclashsing.html on 2024-11-30
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411291851080p4kv2rayclashsing.html on 2024-11-29
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411281881080p4kv2rayclashsing.html on 2024-11-28
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411271651080p4kv2rayclashsing.html on 2024-11-27
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411261471080p4kv2rayclashsing.html on 2024-11-26
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411291851080p4kv2rayclashsing.html on 2024-11-29
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411302071080p4kv2rayclashsing.html on 2024-11-30
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-05 14:21:40 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-05 14:21:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241234kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -242,30 +252,64 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
-    innertube_response = innertube.player(self.video_id)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
-    return self._call_api(endpoint, query, self.base_data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
-    self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
-    self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
-    input('Press enter when you have completed this step.')
-EOFError: EOF when reading a line
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411302071080p4kv2rayclashsing.html on 2024-11-30
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411291851080p4kv2rayclashsing.html on 2024-11-29
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411281881080p4kv2rayclashsing.html on 2024-11-28
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411271651080p4kv2rayclashsing.html on 2024-11-27
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411261471080p4kv2rayclashsing.html on 2024-11-26
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411291851080p4kv2rayclashsing.html on 2024-11-29
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 found https://www.yudou66.com/2024/11/202411302071080p4kv2rayclashsing.html on 2024-11-30
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-05 08:30:24 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-05 08:30:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241234kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 423, in vid_info
+    innertube.innertube_context.update(self.signature_timestamp)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 398, in signature_timestamp
+    'signatureTimestamp': extract.signature_timestamp(self.js)
+                                                      ^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 215, in js
+    if pytubefix.__js_url__ != self.js_url:
+                               ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 201, in js_url
+    if self.age_restricted:
+       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 193, in age_restricted
+    self._age_restricted = extract.is_age_restricted(self.watch_html)
+                                                     ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 179, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 51, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 35, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-12-05 14:21:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241254kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -302,20 +346,64 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
-    innertube_response = innertube.player(self.video_id)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
-    return self._call_api(endpoint, query, self.base_data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
-    self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
-    self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
-    input('Press enter when you have completed this step.')
-EOFError: EOF when reading a line
-2024-12-05 08:30:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241244kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 423, in vid_info
+    innertube.innertube_context.update(self.signature_timestamp)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 398, in signature_timestamp
+    'signatureTimestamp': extract.signature_timestamp(self.js)
+                                                      ^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 215, in js
+    if pytubefix.__js_url__ != self.js_url:
+                               ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 201, in js_url
+    if self.age_restricted:
+       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 193, in age_restricted
+    self._age_restricted = extract.is_age_restricted(self.watch_html)
+                                                     ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 179, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 51, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 35, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-12-05 14:21:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/20241244kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -352,38 +440,82 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
-    innertube_response = innertube.player(self.video_id)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
-    return self._call_api(endpoint, query, self.base_data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
-    self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
-    self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
-    input('Press enter when you have completed this step.')
-EOFError: EOF when reading a line
-2024-12-05 08:30:26 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-05 08:30:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 5104,
- 'downloader/request_count': 14,
- 'downloader/request_method_count/GET': 14,
- 'downloader/response_bytes': 210998,
- 'downloader/response_count': 14,
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 423, in vid_info
+    innertube.innertube_context.update(self.signature_timestamp)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 398, in signature_timestamp
+    'signatureTimestamp': extract.signature_timestamp(self.js)
+                                                      ^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 215, in js
+    if pytubefix.__js_url__ != self.js_url:
+                               ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 201, in js_url
+    if self.age_restricted:
+       ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 193, in age_restricted
+    self._age_restricted = extract.is_age_restricted(self.watch_html)
+                                                     ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 179, in watch_html
+    self._watch_html = request.get(url=self.watch_url)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 51, in get
+    response = _execute_request(url, headers=extra_headers, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/request.py", line 35, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 557, in error
+    result = self._call_chain(*args)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+2024-12-05 14:21:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-05 14:21:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4403,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 209705,
+ 'downloader/response_count': 12,
  'downloader/response_status_count/200': 7,
- 'downloader/response_status_count/302': 7,
- 'elapsed_time_seconds': 4.117451,
+ 'downloader/response_status_count/302': 5,
+ 'elapsed_time_seconds': 1.932906,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 5, 8, 30, 26, 502212, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 12, 5, 14, 21, 42, 134817, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 1149216,
  'httpcompression/response_count': 7,
  'items_per_minute': None,
  'log_count/ERROR': 3,
  'log_count/INFO': 32,
- 'memusage/max': 481705984,
- 'memusage/startup': 481705984,
+ 'memusage/max': 481697792,
+ 'memusage/startup': 481697792,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
@@ -394,6 +526,6 @@ EOFError: EOF when reading a line
  'scheduler/dequeued/memory': 10,
  'scheduler/enqueued': 10,
  'scheduler/enqueued/memory': 10,
- 'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2024, 12, 5, 8, 30, 22, 384761, tzinfo=datetime.timezone.utc)}
-2024-12-05 08:30:26 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'spider_exceptions/HTTPError': 3,
+ 'start_time': datetime.datetime(2024, 12, 5, 14, 21, 40, 201911, tzinfo=datetime.timezone.utc)}
+2024-12-05 14:21:42 [scrapy.core.engine] INFO: Spider closed (finished)
