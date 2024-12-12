@@ -1,4 +1,4 @@
-2024-12-12 08:30:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-12 14:22:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,100 +13,100 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-12 08:30:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-12 14:22:04 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-12 08:30:08 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-12 14:22:04 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-12 08:30:08 [scrapy.core.engine] INFO: Spider opened
-2024-12-12 08:30:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-12 08:30:08 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-12 08:30:08 [simple] INFO: freenode start
-2024-12-12 08:30:08 [simple] INFO: ndnode start
-2024-12-12 08:30:08 [simple] INFO: nodev2ray start
-2024-12-12 08:30:08 [simple] INFO: nodefree start
-2024-12-12 08:30:08 [simple] INFO: v2rayshare start
-2024-12-12 08:30:08 [simple] INFO: wenode start
-2024-12-12 08:30:08 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-12 08:30:08 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-12 14:22:04 [scrapy.core.engine] INFO: Spider opened
+2024-12-12 14:22:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-12 14:22:04 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-12 14:22:04 [simple] INFO: freenode start
+2024-12-12 14:22:04 [simple] INFO: ndnode start
+2024-12-12 14:22:04 [simple] INFO: nodev2ray start
+2024-12-12 14:22:04 [simple] INFO: nodefree start
+2024-12-12 14:22:04 [simple] INFO: v2rayshare start
+2024-12-12 14:22:04 [simple] INFO: wenode start
+2024-12-12 14:22:05 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-12 14:22:05 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
              ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
     return g.throw(self.value.with_traceback(self.tb))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 68, in process_request
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 68, in process_request
     return (yield download_func(request, spider))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
     current.result = callback(  # type: ignore[misc]
                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-12 08:30:09 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-25-node-share.htm on 2024-11-25
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-24-shadowrocket-node.htm on 2024-11-24
-2024-12-12 08:30:09 [simple] INFO: nodev2ray found /free-node/2024-11-23-free-ssr-subscribe.htm on 2024-11-23
-2024-12-12 08:30:09 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-12 08:30:09 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-12 08:30:09 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-12 08:30:09 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
+2024-12-12 14:22:05 [simple] INFO: wenode is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: wenode is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: wenode is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-26-free-v2ray.htm on 2024-11-26
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-25-node-share.htm on 2024-11-25
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-24-shadowrocket-node.htm on 2024-11-24
+2024-12-12 14:22:05 [simple] INFO: nodev2ray found /free-node/2024-11-23-free-ssr-subscribe.htm on 2024-11-23
+2024-12-12 14:22:05 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-12 14:22:05 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-12 14:22:05 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
              ^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/python/failure.py", line 467, in throwExceptionIntoGenerator
     return g.throw(self.value.with_traceback(self.tb))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 68, in process_request
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py", line 68, in process_request
     return (yield download_func(request, spider))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 1088, in _runCallbacks
     current.result = callback(  # type: ignore[misc]
                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-12 08:30:11 [simple] INFO: wenode is up to date, exiting
-2024-12-12 08:30:11 [simple] INFO: wenode is up to date, exiting
-2024-12-12 08:30:11 [simple] INFO: wenode is up to date, exiting
-2024-12-12 08:30:12 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-12 08:30:12 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-12 08:30:12 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-12 08:30:13 [simple] INFO: nodefree is up to date, exiting
-2024-12-12 08:30:13 [simple] INFO: nodefree is up to date, exiting
-2024-12-12 08:30:13 [simple] INFO: nodefree is up to date, exiting
-2024-12-12 08:30:13 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-12 08:30:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2024-12-12 14:22:05 [simple] INFO: nodefree is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: nodefree is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: nodefree is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-12 14:22:05 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-12 14:22:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-12 14:22:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 6,
  'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
- 'downloader/request_bytes': 5758,
+ 'downloader/request_bytes': 5737,
  'downloader/request_count': 18,
  'downloader/request_method_count/GET': 18,
- 'downloader/response_bytes': 48925,
+ 'downloader/response_bytes': 48941,
  'downloader/response_count': 12,
  'downloader/response_status_count/200': 9,
  'downloader/response_status_count/301': 2,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 5.337003,
+ 'elapsed_time_seconds': 1.857474,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 12, 8, 30, 13, 976074, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 12, 12, 14, 22, 6, 373361, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 239164,
  'httpcompression/response_count': 8,
  'items_per_minute': None,
  'log_count/ERROR': 4,
  'log_count/INFO': 36,
- 'memusage/max': 484511744,
- 'memusage/startup': 484511744,
+ 'memusage/max': 484417536,
+ 'memusage/startup': 484417536,
  'response_received_count': 10,
  'responses_per_minute': None,
  'retry/count': 4,
@@ -121,17 +121,17 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scheduler/dequeued/memory': 8,
  'scheduler/enqueued': 8,
  'scheduler/enqueued/memory': 8,
- 'start_time': datetime.datetime(2024, 12, 12, 8, 30, 8, 639071, tzinfo=datetime.timezone.utc)}
-2024-12-12 08:30:13 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-12-12 08:30:17 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2024, 12, 12, 14, 22, 4, 515887, tzinfo=datetime.timezone.utc)}
+2024-12-12 14:22:06 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-12-12 14:22:16 [scrapy.addons] INFO: Enabled addons:
 []
-2024-12-12 08:30:17 [scrapy.extensions.telnet] INFO: Telnet Password: f3ccb0b5cd7cfdb3
-2024-12-12 08:30:17 [scrapy.middleware] INFO: Enabled extensions:
+2024-12-12 14:22:16 [scrapy.extensions.telnet] INFO: Telnet Password: cd463c57505ae60c
+2024-12-12 14:22:16 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-12-12 08:30:17 [scrapy.crawler] INFO: Overridden settings:
+2024-12-12 14:22:16 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -141,7 +141,7 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-12-12 08:30:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-12 14:22:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -156,51 +156,51 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-12 08:30:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-12 14:22:16 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-12 08:30:17 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-12 14:22:16 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-12 08:30:17 [scrapy.core.engine] INFO: Spider opened
-2024-12-12 08:30:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-12 08:30:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-12 08:30:17 [decrypt] INFO: yudou66 start
-2024-12-12 08:30:17 [decrypt] INFO: blues start
-2024-12-12 08:30:18 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html
-2024-12-12 08:30:18 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412114kchatgpt4k8kclashv2ray.html
-2024-12-12 08:30:18 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412104kchatgpt4k8kclashv2ray.html
-2024-12-12 08:30:18 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-12 08:30:18 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-12 08:30:18 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-12 08:30:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412114kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-12 14:22:16 [scrapy.core.engine] INFO: Spider opened
+2024-12-12 14:22:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-12 14:22:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-12 14:22:16 [decrypt] INFO: yudou66 start
+2024-12-12 14:22:16 [decrypt] INFO: blues start
+2024-12-12 14:22:16 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html
+2024-12-12 14:22:16 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412114kchatgpt4k8kclashv2ray.html
+2024-12-12 14:22:16 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412104kchatgpt4k8kclashv2ray.html
+2024-12-12 14:22:16 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-12 14:22:16 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-12 14:22:16 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-12 14:22:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412114kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
           ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
     return (self._set_referer(r, response) for r in result)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
     return (r for r in result if self._filter(r, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
     return (r for r in result if self._filter(r, response, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
   File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/spiders/DecryptSpider.py", line 85, in parse_detail
     pwdfinder = PwdFinder(name, self.logger, yt_url)
@@ -208,49 +208,49 @@ Traceback (most recent call last):
   File "/home/runner/work/FreeNodes/FreeNodes/utils/PwdFinder.py", line 70, in __init__
     match = re.search(r"(?:\d{4}[-年])?(\d{1,2})[-月](\d{1,2})", yt.title)
                                                                  ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
     innertube_response = innertube.player(self.video_id)
                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
     return self._call_api(endpoint, query, self.base_data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
     self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
     self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-12 08:30:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-12 14:22:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412124kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
           ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
     return (self._set_referer(r, response) for r in result)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
     return (r for r in result if self._filter(r, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
     return (r for r in result if self._filter(r, response, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
   File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/spiders/DecryptSpider.py", line 85, in parse_detail
     pwdfinder = PwdFinder(name, self.logger, yt_url)
@@ -258,49 +258,49 @@ Traceback (most recent call last):
   File "/home/runner/work/FreeNodes/FreeNodes/utils/PwdFinder.py", line 70, in __init__
     match = re.search(r"(?:\d{4}[-年])?(\d{1,2})[-月](\d{1,2})", yt.title)
                                                                  ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
     innertube_response = innertube.player(self.video_id)
                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
     return self._call_api(endpoint, query, self.base_data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
     self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
     self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-12 08:30:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412104kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
+2024-12-12 14:22:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412104kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
           ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/python.py", line 368, in __next__
     return next(self.data)
            ^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/referer.py", line 379, in <genexpr>
     return (self._set_referer(r, response) for r in result)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/urllength.py", line 57, in <genexpr>
     return (r for r in result if self._filter(r, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/spidermiddlewares/depth.py", line 54, in <genexpr>
     return (r for r in result if self._filter(r, response, spider))
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 106, in process_sync
     yield from iterable
   File "/home/runner/work/FreeNodes/FreeNodes/NodeScrapy/spiders/DecryptSpider.py", line 85, in parse_detail
     pwdfinder = PwdFinder(name, self.logger, yt_url)
@@ -308,41 +308,41 @@ Traceback (most recent call last):
   File "/home/runner/work/FreeNodes/FreeNodes/utils/PwdFinder.py", line 70, in __init__
     match = re.search(r"(?:\d{4}[-年])?(\d{1,2})[-月](\d{1,2})", yt.title)
                                                                  ^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 678, in title
     self._author = self.vid_info.get("videoDetails", {}).get(
                    ^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/__main__.py", line 425, in vid_info
     innertube_response = innertube.player(self.video_id)
                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 871, in player
     return self._call_api(endpoint, query, self.base_data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 765, in _call_api
     self.fetch_bearer_token()
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 687, in fetch_bearer_token
     self.oauth_verifier(verification_url, user_code)
-  File "/opt/hostedtoolcache/Python/3.11.10/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
+  File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-12 08:30:20 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-12 08:30:20 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4603,
+2024-12-12 14:22:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-12 14:22:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4741,
  'downloader/request_count': 13,
  'downloader/request_method_count/GET': 13,
- 'downloader/response_bytes': 209620,
+ 'downloader/response_bytes': 209680,
  'downloader/response_count': 13,
  'downloader/response_status_count/200': 7,
  'downloader/response_status_count/302': 6,
- 'elapsed_time_seconds': 2.528008,
+ 'elapsed_time_seconds': 2.553845,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 12, 8, 30, 20, 210648, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1149127,
+ 'finish_time': datetime.datetime(2024, 12, 12, 14, 22, 19, 9822, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1149109,
  'httpcompression/response_count': 7,
  'items_per_minute': None,
  'log_count/ERROR': 3,
  'log_count/INFO': 18,
- 'memusage/max': 482308096,
- 'memusage/startup': 482308096,
+ 'memusage/max': 479715328,
+ 'memusage/startup': 479715328,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
@@ -354,5 +354,5 @@ EOFError: EOF when reading a line
  'scheduler/enqueued': 9,
  'scheduler/enqueued/memory': 9,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2024, 12, 12, 8, 30, 17, 682640, tzinfo=datetime.timezone.utc)}
-2024-12-12 08:30:20 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2024, 12, 12, 14, 22, 16, 455977, tzinfo=datetime.timezone.utc)}
+2024-12-12 14:22:19 [scrapy.core.engine] INFO: Spider closed (finished)
