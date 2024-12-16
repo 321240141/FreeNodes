@@ -1,4 +1,4 @@
-2024-12-16 08:31:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-16 14:22:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,24 +13,24 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-16 08:31:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-16 14:22:15 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-16 08:31:34 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-16 14:22:15 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-16 08:31:34 [scrapy.core.engine] INFO: Spider opened
-2024-12-16 08:31:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-16 08:31:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-16 08:31:34 [simple] INFO: freenode start
-2024-12-16 08:31:34 [simple] INFO: ndnode start
-2024-12-16 08:31:34 [simple] INFO: nodev2ray start
-2024-12-16 08:31:34 [simple] INFO: nodefree start
-2024-12-16 08:31:34 [simple] INFO: v2rayshare start
-2024-12-16 08:31:34 [simple] INFO: wenode start
-2024-12-16 08:31:35 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-16 08:31:35 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-16 14:22:15 [scrapy.core.engine] INFO: Spider opened
+2024-12-16 14:22:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-16 14:22:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-16 14:22:15 [simple] INFO: freenode start
+2024-12-16 14:22:15 [simple] INFO: ndnode start
+2024-12-16 14:22:15 [simple] INFO: nodev2ray start
+2024-12-16 14:22:15 [simple] INFO: nodefree start
+2024-12-16 14:22:15 [simple] INFO: v2rayshare start
+2024-12-16 14:22:15 [simple] INFO: wenode start
+2024-12-16 14:22:16 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-16 14:22:16 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://freenode.openrunner.net/robots.txt>: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -47,8 +47,8 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-16 08:31:35 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-16 08:31:35 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
+2024-12-16 14:22:16 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://freenode.openrunner.net> (failed 3 times): DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
+2024-12-16 14:22:16 [scrapy.core.scraper] ERROR: Error downloading <GET https://freenode.openrunner.net>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -65,44 +65,44 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/twisted/internet/endpoints.py", line 1061, in startConnectionAttempts
     raise error.DNSLookupError(
 twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: freenode.openrunner.net.
-2024-12-16 08:31:35 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
-2024-12-16 08:31:35 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
-2024-12-16 08:31:35 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
-2024-12-16 08:31:35 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
-2024-12-16 08:31:35 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: wenode is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: wenode is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: wenode is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: nodefree is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: nodefree is up to date, exiting
-2024-12-16 08:31:35 [simple] INFO: nodefree is up to date, exiting
-2024-12-16 08:31:36 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-16 08:31:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2024-12-16 14:22:16 [simple] INFO: nodev2ray found /free-node/2024-11-30-v2ray-node.htm on 2024-11-30
+2024-12-16 14:22:16 [simple] INFO: nodev2ray found /free-node/2024-11-29-free-subscribe-node.htm on 2024-11-29
+2024-12-16 14:22:16 [simple] INFO: nodev2ray found /free-node/2024-11-28-free-high-speed-nodes.htm on 2024-11-28
+2024-12-16 14:22:16 [simple] INFO: nodev2ray found /free-node/2024-11-27-free-clash.htm on 2024-11-27
+2024-12-16 14:22:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-16 14:22:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-16 14:22:16 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-16 14:22:16 [simple] INFO: wenode is up to date, exiting
+2024-12-16 14:22:16 [simple] INFO: wenode is up to date, exiting
+2024-12-16 14:22:16 [simple] INFO: wenode is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: nodefree is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-16 14:22:17 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-16 14:22:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-16 14:22:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 6,
  'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
- 'downloader/request_bytes': 5694,
+ 'downloader/request_bytes': 5875,
  'downloader/request_count': 18,
  'downloader/request_method_count/GET': 18,
- 'downloader/response_bytes': 49572,
+ 'downloader/response_bytes': 49516,
  'downloader/response_count': 12,
  'downloader/response_status_count/200': 9,
  'downloader/response_status_count/301': 2,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 1.414318,
+ 'elapsed_time_seconds': 1.995549,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 16, 8, 31, 36, 275744, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 12, 16, 14, 22, 17, 808230, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 245587,
  'httpcompression/response_count': 8,
  'items_per_minute': None,
  'log_count/ERROR': 4,
  'log_count/INFO': 32,
- 'memusage/max': 476217344,
- 'memusage/startup': 476217344,
+ 'memusage/max': 473817088,
+ 'memusage/startup': 473817088,
  'response_received_count': 10,
  'responses_per_minute': None,
  'retry/count': 4,
@@ -117,17 +117,17 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scheduler/dequeued/memory': 8,
  'scheduler/enqueued': 8,
  'scheduler/enqueued/memory': 8,
- 'start_time': datetime.datetime(2024, 12, 16, 8, 31, 34, 861426, tzinfo=datetime.timezone.utc)}
-2024-12-16 08:31:36 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-12-16 08:31:46 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2024, 12, 16, 14, 22, 15, 812681, tzinfo=datetime.timezone.utc)}
+2024-12-16 14:22:17 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-12-16 14:22:23 [scrapy.addons] INFO: Enabled addons:
 []
-2024-12-16 08:31:46 [scrapy.extensions.telnet] INFO: Telnet Password: fa73a4bc7adee467
-2024-12-16 08:31:46 [scrapy.middleware] INFO: Enabled extensions:
+2024-12-16 14:22:23 [scrapy.extensions.telnet] INFO: Telnet Password: 8390abb137138e0f
+2024-12-16 14:22:23 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-12-16 08:31:46 [scrapy.crawler] INFO: Overridden settings:
+2024-12-16 14:22:23 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -137,7 +137,7 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-12-16 08:31:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-16 14:22:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -152,25 +152,25 @@ twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostnam
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-16 08:31:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-16 14:22:23 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-16 08:31:47 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-16 14:22:23 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-16 08:31:47 [scrapy.core.engine] INFO: Spider opened
-2024-12-16 08:31:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-16 08:31:47 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-16 08:31:47 [decrypt] INFO: yudou66 start
-2024-12-16 08:31:47 [decrypt] INFO: blues start
-2024-12-16 08:31:47 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-16 08:31:47 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-16 08:31:47 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-16 08:31:47 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412164kchatgpt4k8kclashv2ray.html
-2024-12-16 08:31:47 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html
-2024-12-16 08:31:47 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html
-2024-12-16 08:31:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-16 14:22:23 [scrapy.core.engine] INFO: Spider opened
+2024-12-16 14:22:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-16 14:22:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-16 14:22:23 [decrypt] INFO: yudou66 start
+2024-12-16 14:22:23 [decrypt] INFO: blues start
+2024-12-16 14:22:23 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-16 14:22:23 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-16 14:22:23 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-16 14:22:23 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412164kchatgpt4k8kclashv2ray.html
+2024-12-16 14:22:23 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html
+2024-12-16 14:22:23 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html
+2024-12-16 14:22:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412144kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -220,7 +220,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-16 08:31:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412164kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-16 14:22:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412164kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -270,7 +270,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-16 08:31:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-16 14:22:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412154kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -320,35 +320,35 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-16 08:31:50 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-16 08:31:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4614,
- 'downloader/request_count': 13,
- 'downloader/request_method_count/GET': 13,
- 'downloader/response_bytes': 210055,
- 'downloader/response_count': 13,
+2024-12-16 14:22:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-16 14:22:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3908,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 208287,
+ 'downloader/response_count': 11,
  'downloader/response_status_count/200': 7,
- 'downloader/response_status_count/302': 6,
- 'elapsed_time_seconds': 3.191815,
+ 'downloader/response_status_count/302': 4,
+ 'elapsed_time_seconds': 3.389221,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 16, 8, 31, 50, 225865, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 1149360,
+ 'finish_time': datetime.datetime(2024, 12, 16, 14, 22, 26, 857735, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 1149288,
  'httpcompression/response_count': 7,
  'items_per_minute': None,
  'log_count/ERROR': 3,
  'log_count/INFO': 18,
- 'memusage/max': 473698304,
- 'memusage/startup': 473698304,
+ 'memusage/max': 471916544,
+ 'memusage/startup': 471916544,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
  'robotstxt/request_count': 2,
  'robotstxt/response_count': 2,
  'robotstxt/response_status_count/200': 2,
- 'scheduler/dequeued': 9,
- 'scheduler/dequeued/memory': 9,
- 'scheduler/enqueued': 9,
- 'scheduler/enqueued/memory': 9,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2024, 12, 16, 8, 31, 47, 34050, tzinfo=datetime.timezone.utc)}
-2024-12-16 08:31:50 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2024, 12, 16, 14, 22, 23, 468514, tzinfo=datetime.timezone.utc)}
+2024-12-16 14:22:26 [scrapy.core.engine] INFO: Spider closed (finished)
