@@ -1,4 +1,4 @@
-2024-12-27 08:26:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-27 14:19:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,75 +13,75 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-27 08:26:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-27 14:19:13 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-27 08:26:50 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-27 14:19:13 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-27 08:26:50 [scrapy.core.engine] INFO: Spider opened
-2024-12-27 08:26:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-27 08:26:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-27 08:26:50 [simple] INFO: freenode start
-2024-12-27 08:26:50 [simple] INFO: ndnode start
-2024-12-27 08:26:50 [simple] INFO: nodev2ray start
-2024-12-27 08:26:50 [simple] INFO: nodefree start
-2024-12-27 08:26:50 [simple] INFO: v2rayshare start
-2024-12-27 08:26:50 [simple] INFO: wenode start
-2024-12-27 08:26:50 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-27 08:26:50 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-27 08:26:50 [simple] INFO: nodev2ray is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: wenode is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: wenode is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: wenode is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: v2rayshare is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241227/
-2024-12-27 08:26:51 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241226/
-2024-12-27 08:26:51 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241225/
-2024-12-27 08:26:51 [simple] INFO: nodefree is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: nodefree is up to date, exiting
-2024-12-27 08:26:51 [simple] INFO: nodefree is up to date, exiting
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/, skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/featured.jpg", skipping
-2024-12-27 08:26:51 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
-2024-12-27 08:26:51 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-27 08:26:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 5673,
+2024-12-27 14:19:13 [scrapy.core.engine] INFO: Spider opened
+2024-12-27 14:19:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-27 14:19:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-27 14:19:13 [simple] INFO: freenode start
+2024-12-27 14:19:13 [simple] INFO: ndnode start
+2024-12-27 14:19:13 [simple] INFO: nodev2ray start
+2024-12-27 14:19:13 [simple] INFO: nodefree start
+2024-12-27 14:19:13 [simple] INFO: v2rayshare start
+2024-12-27 14:19:13 [simple] INFO: wenode start
+2024-12-27 14:19:13 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241227/
+2024-12-27 14:19:13 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241226/
+2024-12-27 14:19:13 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20241225/
+2024-12-27 14:19:13 [simple] INFO: wenode is up to date, exiting
+2024-12-27 14:19:13 [simple] INFO: wenode is up to date, exiting
+2024-12-27 14:19:13 [simple] INFO: wenode is up to date, exiting
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241226/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
+2024-12-27 14:19:13 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-27 14:19:13 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-27 14:19:13 [simple] INFO: nodev2ray is up to date, exiting
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241225/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/, skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20241227/featured.jpg", skipping
+2024-12-27 14:19:13 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=横幅728x90, skipping
+2024-12-27 14:19:14 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-27 14:19:14 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-27 14:19:14 [simple] INFO: v2rayshare is up to date, exiting
+2024-12-27 14:19:14 [simple] INFO: nodefree is up to date, exiting
+2024-12-27 14:19:14 [simple] INFO: nodefree is up to date, exiting
+2024-12-27 14:19:14 [simple] INFO: nodefree is up to date, exiting
+2024-12-27 14:19:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-27 14:19:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5547,
  'downloader/request_count': 17,
  'downloader/request_method_count/GET': 17,
- 'downloader/response_bytes': 91009,
+ 'downloader/response_bytes': 90712,
  'downloader/response_count': 17,
  'downloader/response_status_count/200': 14,
  'downloader/response_status_count/301': 2,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 1.405696,
+ 'elapsed_time_seconds': 1.869192,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 27, 8, 26, 51, 808407, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 531332,
+ 'finish_time': datetime.datetime(2024, 12, 27, 14, 19, 14, 903186, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 525178,
  'httpcompression/response_count': 12,
  'items_per_minute': None,
  'log_count/INFO': 31,
  'log_count/WARNING': 18,
- 'memusage/max': 475611136,
- 'memusage/startup': 475611136,
+ 'memusage/max': 473497600,
+ 'memusage/startup': 473497600,
  'request_depth_max': 1,
  'response_received_count': 15,
  'responses_per_minute': None,
@@ -93,17 +93,17 @@
  'scheduler/dequeued/memory': 9,
  'scheduler/enqueued': 9,
  'scheduler/enqueued/memory': 9,
- 'start_time': datetime.datetime(2024, 12, 27, 8, 26, 50, 402711, tzinfo=datetime.timezone.utc)}
-2024-12-27 08:26:51 [scrapy.core.engine] INFO: Spider closed (finished)
-2024-12-27 08:26:55 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2024, 12, 27, 14, 19, 13, 33994, tzinfo=datetime.timezone.utc)}
+2024-12-27 14:19:14 [scrapy.core.engine] INFO: Spider closed (finished)
+2024-12-27 14:19:18 [scrapy.addons] INFO: Enabled addons:
 []
-2024-12-27 08:26:55 [scrapy.extensions.telnet] INFO: Telnet Password: faf4ee9f1dab910d
-2024-12-27 08:26:55 [scrapy.middleware] INFO: Enabled extensions:
+2024-12-27 14:19:18 [scrapy.extensions.telnet] INFO: Telnet Password: aa7824c142454785
+2024-12-27 14:19:18 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2024-12-27 08:26:55 [scrapy.crawler] INFO: Overridden settings:
+2024-12-27 14:19:18 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -113,7 +113,7 @@
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2024-12-27 08:26:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2024-12-27 14:19:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -128,25 +128,25 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2024-12-27 08:26:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+2024-12-27 14:19:18 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2024-12-27 08:26:55 [scrapy.middleware] INFO: Enabled item pipelines:
+2024-12-27 14:19:18 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2024-12-27 08:26:55 [scrapy.core.engine] INFO: Spider opened
-2024-12-27 08:26:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2024-12-27 08:26:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2024-12-27 08:26:55 [decrypt] INFO: yudou66 start
-2024-12-27 08:26:55 [decrypt] INFO: blues start
-2024-12-27 08:26:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412264kchatgpt4k8kclashv2ray.html
-2024-12-27 08:26:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412254kchatgpt4k8kclashv2ray.html
-2024-12-27 08:26:55 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412244kchatgpt4k8kclashv2ray.html
-2024-12-27 08:26:56 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-27 08:26:56 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-27 08:26:56 [decrypt] INFO: yudou66 is up to date, exiting
-2024-12-27 08:26:57 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412254kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-27 14:19:18 [scrapy.core.engine] INFO: Spider opened
+2024-12-27 14:19:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-12-27 14:19:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-12-27 14:19:18 [decrypt] INFO: yudou66 start
+2024-12-27 14:19:18 [decrypt] INFO: blues start
+2024-12-27 14:19:19 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412264kchatgpt4k8kclashv2ray.html
+2024-12-27 14:19:19 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412254kchatgpt4k8kclashv2ray.html
+2024-12-27 14:19:19 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2024/12/202412244kchatgpt4k8kclashv2ray.html
+2024-12-27 14:19:19 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-27 14:19:19 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-27 14:19:19 [decrypt] INFO: yudou66 is up to date, exiting
+2024-12-27 14:19:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412264kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -196,7 +196,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-27 08:26:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412264kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-27 14:19:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412254kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -246,7 +246,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-27 08:26:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412244kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
+2024-12-27 14:19:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2024/12/202412244kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -296,25 +296,25 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2024-12-27 08:26:59 [scrapy.core.engine] INFO: Closing spider (finished)
-2024-12-27 08:26:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4499,
+2024-12-27 14:19:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-12-27 14:19:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4613,
  'downloader/request_count': 13,
  'downloader/request_method_count/GET': 13,
- 'downloader/response_bytes': 209821,
+ 'downloader/response_bytes': 210165,
  'downloader/response_count': 13,
  'downloader/response_status_count/200': 7,
  'downloader/response_status_count/302': 6,
- 'elapsed_time_seconds': 4.002997,
+ 'elapsed_time_seconds': 2.729443,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 12, 27, 8, 26, 59, 407865, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2024, 12, 27, 14, 19, 21, 558801, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 1150575,
  'httpcompression/response_count': 7,
  'items_per_minute': None,
  'log_count/ERROR': 3,
  'log_count/INFO': 18,
- 'memusage/max': 473407488,
- 'memusage/startup': 473407488,
+ 'memusage/max': 471339008,
+ 'memusage/startup': 471339008,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
@@ -326,5 +326,5 @@ EOFError: EOF when reading a line
  'scheduler/enqueued': 9,
  'scheduler/enqueued/memory': 9,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2024, 12, 27, 8, 26, 55, 404868, tzinfo=datetime.timezone.utc)}
-2024-12-27 08:26:59 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2024, 12, 27, 14, 19, 18, 829358, tzinfo=datetime.timezone.utc)}
+2024-12-27 14:19:21 [scrapy.core.engine] INFO: Spider closed (finished)
