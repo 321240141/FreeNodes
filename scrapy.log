@@ -1,4 +1,4 @@
-2025-05-07 08:32:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-05-07 14:24:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,120 +13,129 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-05-07 08:32:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-05-07 14:24:52 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-05-07 08:32:41 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-05-07 14:24:52 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-05-07 08:32:41 [scrapy.core.engine] INFO: Spider opened
-2025-05-07 08:32:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-05-07 08:32:41 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-05-07 08:32:41 [simple] INFO: freenode start
-2025-05-07 08:32:41 [simple] INFO: ndnode start
-2025-05-07 08:32:41 [simple] INFO: nodev2ray start
-2025-05-07 08:32:41 [simple] INFO: nodefree start
-2025-05-07 08:32:41 [simple] INFO: v2rayshare start
-2025-05-07 08:32:41 [simple] INFO: wenode start
-2025-05-07 08:32:41 [simple] INFO: freenode found /post/20250507/ on 2025-05-07
-2025-05-07 08:32:41 [simple] INFO: freenode found /post/20250506/ on 2025-05-06
-2025-05-07 08:32:41 [simple] INFO: freenode found /post/20250505/ on 2025-05-05
-2025-05-07 08:32:41 [simple] INFO: freenode found /post/20250504/ on 2025-05-04
-2025-05-07 08:32:41 [simple] INFO: freenode found /post/20250503/ on 2025-05-03
-2025-05-07 08:32:41 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250507/
-2025-05-07 08:32:41 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250506/
-2025-05-07 08:32:41 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250505/
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2552.html on 2025-05-07
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2553.html on 2025-05-06
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2554.html on 2025-05-05
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2555.html on 2025-05-04
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2556.html on 2025-05-03
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2557.html on 2025-05-02
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2558.html on 2025-05-01
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2559.html on 2025-04-30
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2560.html on 2025-04-29
-2025-05-07 08:32:41 [simple] INFO: wenode found https://wenode.cc/a/2561.html on 2025-04-28
-2025-05-07 08:32:41 [simple] INFO: wenode needs update, accessing https://wenode.cc/a/2552.html
-2025-05-07 08:32:41 [simple] INFO: wenode is up to date, exiting
-2025-05-07 08:32:41 [simple] INFO: wenode is up to date, exiting
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/, skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/featured.jpg", skipping
-2025-05-07 08:32:41 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
-2025-05-07 08:32:42 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/05/20250507.txt
-2025-05-07 08:32:42 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/05/20250507.yaml
-2025-05-07 08:32:43 [simple] INFO: Pipeline processing wenode.txt
-2025-05-07 08:32:43 [simple] INFO: Pipeline processed wenode.txt
-2025-05-07 08:32:43 [simple] INFO: Pipeline processing wenode.yaml
-2025-05-07 08:32:44 [simple] INFO: Pipeline processed wenode.yaml
-2025-05-07 08:33:41 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 20 pages/min), scraped 2 items (at 2 items/min)
-2025-05-07 08:33:59 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://nodev2ray.com> (failed 3 times): 522 Unknown Status
-2025-05-07 08:33:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <522 https://nodev2ray.com>: HTTP status code is not handled or not allowed
-2025-05-07 08:33:59 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-05-07 08:33:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 9610,
- 'downloader/request_count': 29,
- 'downloader/request_method_count/GET': 29,
- 'downloader/response_bytes': 324877,
- 'downloader/response_count': 29,
- 'downloader/response_status_count/200': 18,
+2025-05-07 14:24:52 [scrapy.core.engine] INFO: Spider opened
+2025-05-07 14:24:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-05-07 14:24:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-05-07 14:24:52 [simple] INFO: freenode start
+2025-05-07 14:24:52 [simple] INFO: ndnode start
+2025-05-07 14:24:52 [simple] INFO: nodev2ray start
+2025-05-07 14:24:52 [simple] INFO: nodefree start
+2025-05-07 14:24:52 [simple] INFO: v2rayshare start
+2025-05-07 14:24:52 [simple] INFO: wenode start
+2025-05-07 14:24:52 [simple] INFO: freenode found /post/20250507/ on 2025-05-07
+2025-05-07 14:24:52 [simple] INFO: freenode found /post/20250506/ on 2025-05-06
+2025-05-07 14:24:52 [simple] INFO: freenode found /post/20250505/ on 2025-05-05
+2025-05-07 14:24:52 [simple] INFO: freenode found /post/20250504/ on 2025-05-04
+2025-05-07 14:24:52 [simple] INFO: freenode found /post/20250503/ on 2025-05-03
+2025-05-07 14:24:52 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250507/
+2025-05-07 14:24:52 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250506/
+2025-05-07 14:24:52 [simple] INFO: freenode needs update, accessing https://freenode.openrunner.net/post/20250505/
+2025-05-07 14:24:52 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250507/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2552.html on 2025-05-07
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2553.html on 2025-05-06
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2554.html on 2025-05-05
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2555.html on 2025-05-04
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2556.html on 2025-05-03
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2557.html on 2025-05-02
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2558.html on 2025-05-01
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2559.html on 2025-04-30
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2560.html on 2025-04-29
+2025-05-07 14:24:53 [simple] INFO: wenode found https://wenode.cc/a/2561.html on 2025-04-28
+2025-05-07 14:24:53 [simple] INFO: wenode is up to date, exiting
+2025-05-07 14:24:53 [simple] INFO: wenode is up to date, exiting
+2025-05-07 14:24:53 [simple] INFO: wenode is up to date, exiting
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-7-free-subscribe-node.htm on 2025-05-07
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-6-free-v2ray.htm on 2025-05-06
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-5-free-subscribe-node.htm on 2025-05-05
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-4-free-v2ray.htm on 2025-05-04
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-3-free-node-subscribe-links.htm on 2025-05-03
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-2-node-share-links.htm on 2025-05-02
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-5-1-free-v2ray-subscribe.htm on 2025-05-01
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-30-free-high-speed-nodes.htm on 2025-04-30
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-29-free-v2ray.htm on 2025-04-29
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-28-shadowrocket-node.htm on 2025-04-28
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-27-free-node-subscribe.htm on 2025-04-27
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-26-free-node-subscribe.htm on 2025-04-26
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-25-node-share-links.htm on 2025-04-25
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-24-v2ray-node.htm on 2025-04-24
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-23-free-subscribe-node.htm on 2025-04-23
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-22-clash-v2ray-ss-ssr.htm on 2025-04-22
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-21-free-v2ray.htm on 2025-04-21
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-20-v2ray-node.htm on 2025-04-20
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-19-free-shadowrocket-node.htm on 2025-04-19
+2025-05-07 14:24:53 [simple] INFO: nodev2ray found /free-node/2025-4-18-free-shadowrocket-node.htm on 2025-04-18
+2025-05-07 14:24:53 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-5-7-free-subscribe-node.htm
+2025-05-07 14:24:53 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-5-6-free-v2ray.htm
+2025-05-07 14:24:53 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-5-5-free-subscribe-node.htm
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250506/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/, skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/post/20250505/featured.jpg", skipping
+2025-05-07 14:24:53 [simple] WARNING: freenode could not parse https://freenode.openrunner.net/wise.jpg alt=高速稳定的专业节点服务 loading=lazy data-zoomable, skipping
+2025-05-07 14:24:53 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/a9a63892d1623f5be6a1685d3aa19e5f.webp" /, skipping
+2025-05-07 14:24:53 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/aed657e563c73de588c57d68ed1808e1.webp" /, skipping
+2025-05-07 14:24:53 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/ee3710069d59bcc654d9eb43d6e9b4c2.webp" /, skipping
+2025-05-07 14:24:54 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-05-07 14:24:54 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 8597,
+ 'downloader/request_count': 26,
+ 'downloader/request_method_count/GET': 26,
+ 'downloader/response_bytes': 148497,
+ 'downloader/response_count': 26,
+ 'downloader/response_status_count/200': 19,
  'downloader/response_status_count/301': 6,
- 'downloader/response_status_count/404': 2,
- 'downloader/response_status_count/522': 3,
- 'elapsed_time_seconds': 78.040882,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.912538,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 5, 7, 8, 33, 59, 119971, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 662602,
- 'httpcompression/response_count': 17,
- 'httperror/response_ignored_count': 1,
- 'httperror/response_ignored_status_count/522': 1,
- 'item_scraped_count': 2,
+ 'finish_time': datetime.datetime(2025, 5, 7, 14, 24, 54, 64705, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 795646,
+ 'httpcompression/response_count': 18,
  'items_per_minute': None,
- 'log_count/ERROR': 1,
- 'log_count/INFO': 45,
- 'log_count/WARNING': 18,
- 'memusage/max': 430923776,
- 'memusage/startup': 413315072,
- 'request_depth_max': 2,
- 'response_received_count': 21,
+ 'log_count/INFO': 60,
+ 'log_count/WARNING': 21,
+ 'memusage/max': 413335552,
+ 'memusage/startup': 413335552,
+ 'request_depth_max': 1,
+ 'response_received_count': 20,
  'responses_per_minute': None,
- 'retry/count': 2,
- 'retry/max_reached': 1,
- 'retry/reason_count/522 Unknown Status': 2,
- 'robotstxt/request_count': 9,
- 'robotstxt/response_count': 9,
+ 'robotstxt/request_count': 8,
+ 'robotstxt/response_count': 8,
  'robotstxt/response_status_count/200': 7,
- 'robotstxt/response_status_count/404': 2,
- 'scheduler/dequeued': 16,
- 'scheduler/dequeued/memory': 16,
- 'scheduler/enqueued': 16,
- 'scheduler/enqueued/memory': 16,
- 'start_time': datetime.datetime(2025, 5, 7, 8, 32, 41, 79089, tzinfo=datetime.timezone.utc)}
-2025-05-07 08:33:59 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-05-07 08:34:11 [scrapy.addons] INFO: Enabled addons:
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 14,
+ 'scheduler/dequeued/memory': 14,
+ 'scheduler/enqueued': 14,
+ 'scheduler/enqueued/memory': 14,
+ 'start_time': datetime.datetime(2025, 5, 7, 14, 24, 52, 152167, tzinfo=datetime.timezone.utc)}
+2025-05-07 14:24:54 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-05-07 14:25:14 [scrapy.addons] INFO: Enabled addons:
 []
-2025-05-07 08:34:11 [scrapy.extensions.telnet] INFO: Telnet Password: a8ea268862339d8a
-2025-05-07 08:34:11 [scrapy.middleware] INFO: Enabled extensions:
+2025-05-07 14:25:14 [scrapy.extensions.telnet] INFO: Telnet Password: f1a283350696161f
+2025-05-07 14:25:14 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-05-07 08:34:11 [scrapy.crawler] INFO: Overridden settings:
+2025-05-07 14:25:14 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -136,7 +145,7 @@
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2025-05-07 08:34:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-05-07 14:25:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -151,38 +160,38 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-05-07 08:34:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-05-07 14:25:14 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-05-07 08:34:11 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-05-07 14:25:14 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-05-07 08:34:11 [scrapy.core.engine] INFO: Spider opened
-2025-05-07 08:34:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-05-07 08:34:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-05-07 08:34:11 [decrypt] INFO: yudou66 start
-2025-05-07 08:34:11 [decrypt] INFO: blues start
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html on 2025-05-07
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html on 2025-05-06
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html on 2025-05-05
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025544kchatgpt4k8kclashv2ray.html on 2025-05-04
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025534kchatgpt4k8kclashv2ray.html on 2025-05-03
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025524kchatgpt4k8kclashv2ray.html on 2025-05-02
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/2025514kchatgpt4k8kclashv2ray.html on 2025-05-01
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254304kchatgpt4k8kclashv2ray.html on 2025-04-30
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254294kchatgpt4k8kclashv2ray.html on 2025-04-29
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254284kchatgpt4k8kclashv2ray.html on 2025-04-28
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025544kchatgpt4k8kclashv2ray.html on 2025-05-04
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025534kchatgpt4k8kclashv2ray.html on 2025-05-03
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025524kchatgpt4k8kclashv2ray.html on 2025-05-02
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/2025514kchatgpt4k8kclashv2ray.html on 2025-05-01
-2025-05-07 08:34:11 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html on 2025-05-05
-2025-05-07 08:34:11 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html
-2025-05-07 08:34:11 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html
-2025-05-07 08:34:11 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html
-2025-05-07 08:34:11 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.yudou66.com"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.yudou66.com'))])
-2025-05-07 08:34:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
+2025-05-07 14:25:14 [scrapy.core.engine] INFO: Spider opened
+2025-05-07 14:25:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-05-07 14:25:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-05-07 14:25:14 [decrypt] INFO: yudou66 start
+2025-05-07 14:25:14 [decrypt] INFO: blues start
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html on 2025-05-07
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html on 2025-05-06
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html on 2025-05-05
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025544kchatgpt4k8kclashv2ray.html on 2025-05-04
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025534kchatgpt4k8kclashv2ray.html on 2025-05-03
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025524kchatgpt4k8kclashv2ray.html on 2025-05-02
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/2025514kchatgpt4k8kclashv2ray.html on 2025-05-01
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254304kchatgpt4k8kclashv2ray.html on 2025-04-30
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254294kchatgpt4k8kclashv2ray.html on 2025-04-29
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254284kchatgpt4k8kclashv2ray.html on 2025-04-28
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025544kchatgpt4k8kclashv2ray.html on 2025-05-04
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025534kchatgpt4k8kclashv2ray.html on 2025-05-03
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025524kchatgpt4k8kclashv2ray.html on 2025-05-02
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html on 2025-05-05
+2025-05-07 14:25:15 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/2025514kchatgpt4k8kclashv2ray.html on 2025-05-01
+2025-05-07 14:25:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html
+2025-05-07 14:25:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html
+2025-05-07 14:25:15 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html
+2025-05-07 14:25:15 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.yudou66.com"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.yudou66.com'))])
+2025-05-07 14:25:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025574kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -235,7 +244,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-05-07 08:34:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2025-05-07 14:25:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -288,7 +297,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-05-07 08:34:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025554kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2025-05-07 14:25:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/05/2025564kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -341,21 +350,21 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-05-07 08:34:14 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://www.yudou66.com>: HTTP status code is not handled or not allowed
-2025-05-07 08:34:14 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-05-07 08:34:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 4010,
+2025-05-07 14:25:17 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://www.yudou66.com>: HTTP status code is not handled or not allowed
+2025-05-07 14:25:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-05-07 14:25:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4024,
  'downloader/request_count': 11,
  'downloader/request_method_count/GET': 11,
- 'downloader/response_bytes': 170119,
+ 'downloader/response_bytes': 170122,
  'downloader/response_count': 11,
  'downloader/response_status_count/200': 5,
  'downloader/response_status_count/302': 4,
  'downloader/response_status_count/403': 1,
  'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 3.176562,
+ 'elapsed_time_seconds': 3.091219,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 5, 7, 8, 34, 14, 381041, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2025, 5, 7, 14, 25, 17, 678764, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 970432,
  'httpcompression/response_count': 7,
  'httperror/response_ignored_count': 1,
@@ -364,8 +373,8 @@ EOFError: EOF when reading a line
  'log_count/ERROR': 3,
  'log_count/INFO': 31,
  'log_count/WARNING': 1,
- 'memusage/max': 411037696,
- 'memusage/startup': 411037696,
+ 'memusage/max': 410992640,
+ 'memusage/startup': 410992640,
  'request_depth_max': 1,
  'response_received_count': 7,
  'responses_per_minute': None,
@@ -378,5 +387,5 @@ EOFError: EOF when reading a line
  'scheduler/enqueued': 8,
  'scheduler/enqueued/memory': 8,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2025, 5, 7, 8, 34, 11, 204479, tzinfo=datetime.timezone.utc)}
-2025-05-07 08:34:14 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2025, 5, 7, 14, 25, 14, 587545, tzinfo=datetime.timezone.utc)}
+2025-05-07 14:25:17 [scrapy.core.engine] INFO: Spider closed (finished)
